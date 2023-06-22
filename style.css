@@ -352,3 +352,9 @@
 .header__bottom__ul__rigth li:nth-child(4) {
     margin-left: 5px;
 }
+
+/* MAIN */
+
+.main {
+    margin: 0 5% 0 5%;
+}
