@@ -506,6 +506,11 @@ button {
   font-size: 16px;
   font-family: "Roboto", sans-serif;
   line-height: 20px;
+  appearance: none;
+  -webkit-appearance:none;
+  background-position: calc(100% - 20px) center !important;
+  background: url(/assets/Vector\ 21.svg) no-repeat;
+  
 }
 
 .fillter__apply__btn {
@@ -524,23 +529,23 @@ button {
   color: white;
 }
 
-.main__filter__select:disabled {
-  border: 1px solid #e9e9e9;
-  box-shadow: 0px 0px 0px 0px rgba(0, 138, 238, 0.15);
+#disabled {
+  border: 1px solid #e9e9e9 ;
+  box-shadow: 0px 0px 0px 0px rgba(0, 138, 238, 0.15) ;
 }
 
 .main__filter__select1,
 .main__filter__select4 {
-  padding: 0px 0 0 23px;
+  padding: 0px 0 1px 26px;
 }
 
 .main__filter__select3 {
-  padding: 0px 0 0 19px;
+  padding: 0px 0 1px 23px;
 }
 
 .main__filter__select2,
 .main__filter__select5 {
-  padding: 0px 0 0 20px;
+  padding: 0px 0 1px 25px;
 }
 
 /* ASIDE SECTION */
@@ -785,4 +790,72 @@ button {
   line-height: 24px;
   text-transform: uppercase;
   padding-top: 14px;
+}
+
+/* RIGTH SECTION */
+
+.sort__section {
+  padding: 26px 0 0 0px;
+  display: flex;
+  flex-direction: row;
+}
+
+.sort__section__latest {
+  width: 186px;
+  height: 45px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  border: 1px solid #777;
+  box-shadow: 0px 0px 0px 0px rgba(0, 138, 238, 0.15);
+  color: #777;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  line-height: 24px;
+  padding-left: 20px;
+  margin: 0 0 0 34px;
+}
+
+.clear__offers__btn {
+  color: #008aee;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  line-height: 24px;
+  text-decoration-line: underline;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  margin: 0px 0 0 20px;
+}
+
+.clear__offers__icon {
+  background: url(/assets/cleararrow.png) no-repeat 0 0;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  padding: 4px 10px 0 20px;
+}
+
+.digit__offers__ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.digit__offers__ul li {
+  margin-right: 10px;
+}
+
+.digit__offers__ul li p {
+  color: var(--blue, #008aee);
+  font-size: 26px;
+  font-family: "Exo 2", sans-serif;
+  font-weight: 700;
+}
+
+.gas__icon {
+  background: url(/assets/043-gas\ 1.png) no-repeat 0 0;
+  width: 27px;
+  height: 27px;
+  flex-shrink: 0;
 }
