@@ -1022,7 +1022,7 @@ button {
   justify-content: space-between;
   margin: 0;
   padding-bottom: 14px;
-  border-bottom: 2px solid #C1C1C1;
+  border-bottom: 2px solid #c1c1c1;
 }
 
 .div__info,
@@ -1043,16 +1043,15 @@ button {
   border-radius: 26px;
   background: #d9d9d9;
   padding: 6px 9px;
-
 }
 
-.div__info p{
-  color: #231F20;
-font-size: 14px;
-font-family: "Roboto", sans-serif;
-font-weight: 600;
-line-height: 24px;
-margin-left: -2px;
+.div__info p {
+  color: #231f20;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  line-height: 24px;
+  margin-left: -2px;
 }
 
 .div__expiration {
@@ -1065,15 +1064,82 @@ margin-left: -2px;
 }
 
 .div__expiration p {
-  color: #231F20;
+  color: #231f20;
   text-align: right;
   font-size: 14px;
   font-family: "Roboto", sans-serif;
   line-height: 18px;
   margin: 10px 6px 0 0;
-  
 }
 
 .div__expiration span {
-  color: #008AEE;
+  color: #008aee;
 }
+
+/* SECOND OFFER SECTION */
+
+.offer__info {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  border-bottom: 2px solid #C1C1C1;
+  padding-bottom: 16px;
+}
+
+.p__tag {
+  width: 74px;
+  height: 21px;
+  flex-shrink: 0;
+  width: 74px;
+  height: 21px;
+  flex-shrink: 0;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  line-height: 14px;
+  text-transform: uppercase;
+  border-radius: 50px;
+  background: #33bb5a;
+  text-align: center;
+  justify-self: start;
+  margin: 10px 300px 0 0;
+  padding-top: 4px;
+}
+
+.offer__info__p {
+  color: #000;
+  font-size: 16px;
+  font-family: "Exo 2", sans-serif;
+  font-weight: 700;
+  line-height: 22px;
+  padding-top: 3px;
+  padding-bottom: 9px;
+ 
+}
+
+.offer__received span,
+.offer__comment span {
+color: #008AEE;
+}
+
+.offer__received {
+font-size: 12px;
+font-family: "Roboto", sans-serif;
+font-weight: 600;
+line-height: 16px;
+margin: 0px 0 0 0;
+}
+
+.offer__comment {
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  line-height: 16px;
+  margin: 0;
+}
+
+/* THIRD OFFERS SECTION */
+
+
