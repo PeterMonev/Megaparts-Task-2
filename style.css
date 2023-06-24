@@ -143,7 +143,7 @@ button {
 /* HEADER BOTTOM */
 
 .header__section__bottom {
-  width: 100vw;
+  /* width: 100vw; */
   height: 75px;
   background-color: #1c2d3a;
   overflow: hidden;
@@ -554,7 +554,8 @@ button {
 .aside {
   width: 237px;
   float: left;
-  margin: 25.5px 0 0 19px;
+  margin: 25.5px 0 0 0px;
+  padding-left: 19px;
 }
 
 .aside__article {
@@ -656,6 +657,10 @@ button {
 
 .span__text__reviews {
   margin: 9px 0 0 1px;
+}
+
+.aside__div__ad {
+  padding-left: 15.5px;
 }
 
 .aside__div__ad a {
@@ -795,7 +800,7 @@ button {
 /* RIGTH SECTION */
 
 .sort__section {
-  padding: 26px 0 0 0px;
+  padding: 26px 0 0 18px;
   display: flex;
   flex-direction: row;
 }
@@ -869,20 +874,19 @@ button {
   margin-top: 2px;
 }
 
-.digit__offers__p1{
+.digit__offers__p1 {
   padding-top: 0.5px;
 }
 
 .digit__offers_img2 {
-  width: 29.548px ;
+  width: 29.548px;
   height: 29.548px;
   flex-shrink: 0;
 }
 
-.digit__offers__p2{
+.digit__offers__p2 {
   padding-top: 1px;
 }
-
 
 .digit__offers_img3 {
   width: 28.056px;
@@ -892,4 +896,184 @@ button {
 
 .digit__offers__p3 {
   padding-top: 2px;
+}
+
+/* OFFERS SECTION */
+
+.offers__section {
+  /* background-color: #008aee; */
+  width: 960px;
+  height: 2020px;
+  margin: 11px -10px 0 261px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.offers__div__offer1,
+.offers__div__offer2,
+.offers__div__offer3,
+.offers__div__offer4,
+.offers__div__offer5,
+.offers__div__offer6 {
+  width: 477px;
+  height: 658px;
+  flex-shrink: 0;
+}
+
+.offers__div__offer2,
+.offers__div__offer4,
+.offers__div__offer6 {
+  padding-top: 2px;
+}
+
+.offers__div__offer1,
+.offers__div__offer3 {
+  padding: 5px 0 0 15px;
+}
+
+.offers__div__offer5 {
+  padding: 0px 0 0 15px;
+}
+
+.offers__div__offer6 {
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 2px 3px 20px 0px rgba(0, 0, 0, 0.15);
+}
+
+.offers__section div article {
+  width: 436px;
+  height: 609px;
+  flex-shrink: 0;
+  /* background-color: lightblue; */
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 22px;
+}
+
+.offer__section__photos {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  height: 243px;
+}
+
+.section__first__photo {
+  z-index: 0;
+  height: 229px;
+  flex-shrink: 0;
+  margin: 0;
+  border-radius: 20px;
+  max-width: 75%;
+  position: relative;
+}
+
+.first__photo {
+  width: 325px;
+  height: 229px;
+  z-index: -1;
+}
+
+.heart__img {
+  width: 20px;
+  height: 17px;
+  flex-shrink: 0;
+  position: absolute;
+  top: 199px;
+  right: 17px;
+}
+
+.offer__section__photos div p {
+  width: 129px;
+  height: 24px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background: var(--red, #fd3541);
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  line-height: 18px;
+  margin: 12px 0 0 186px;
+  padding-top: 3px;
+  z-index: 1;
+  position: absolute;
+  top: 0px;
+}
+
+.section__second__photos {
+  display: flex;
+  flex-direction: column;
+  max-width: 30%;
+  padding-left: 10px;
+}
+
+.section__second__photos span {
+  margin-bottom: 5px;
+}
+
+.section__infoOwner {
+  max-height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0;
+  padding-bottom: 14px;
+  border-bottom: 2px solid #C1C1C1;
+}
+
+.div__info,
+.div__expiration {
+  width: 50%;
+}
+
+.div__info span {
+  width: 26px;
+  height: 26px;
+  color: #434343;
+  text-align: center;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  line-height: 14px;
+  text-transform: uppercase;
+  border-radius: 26px;
+  background: #d9d9d9;
+  padding: 6px 9px;
+
+}
+
+.div__info p{
+  color: #231F20;
+font-size: 14px;
+font-family: "Roboto", sans-serif;
+font-weight: 600;
+line-height: 24px;
+margin-left: -2px;
+}
+
+.div__expiration {
+  text-align: right;
+  padding-top: 3px;
+}
+
+.section__infoOwner div p {
+  display: inline;
+}
+
+.div__expiration p {
+  color: #231F20;
+  text-align: right;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  line-height: 18px;
+  margin: 10px 6px 0 0;
+  
+}
+
+.div__expiration span {
+  color: #008AEE;
 }
