@@ -927,13 +927,25 @@ button {
   padding-top: 2px;
 }
 
+.offers__div__offer2{
+  padding-top: 6px;
+}
+
 .offers__div__offer1,
 .offers__div__offer3 {
   padding: 5px 0 0 15px;
 }
 
 .offers__div__offer5 {
-  padding: 0px 0 0 15px;
+  padding: 2px 0 0 15px;
+}
+
+.offers__div__offer4 {
+  padding-top: 4px 
+}
+
+.offers__div__offer1 {
+  padding-top: 6px 
 }
 
 .offers__div__offer6 {
@@ -981,7 +993,7 @@ button {
   height: 17px;
   flex-shrink: 0;
   position: absolute;
-  top: 199px;
+  top: 196px;
   right: 17px;
 }
 
@@ -1082,7 +1094,7 @@ button {
   display: flex;
   flex-direction: column;
   margin: 0;
-  border-bottom: 2px solid #C1C1C1;
+  border-bottom: 2px solid #c1c1c1;
   padding-bottom: 16px;
 }
 
@@ -1116,20 +1128,19 @@ button {
   line-height: 22px;
   padding-top: 3px;
   padding-bottom: 9px;
- 
 }
 
 .offer__received span,
 .offer__comment span {
-color: #008AEE;
+  color: #008aee;
 }
 
 .offer__received {
-font-size: 12px;
-font-family: "Roboto", sans-serif;
-font-weight: 600;
-line-height: 16px;
-margin: 0px 0 0 0;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  line-height: 16px;
+  margin: 0px 0 0 0;
 }
 
 .offer__comment {
@@ -1142,4 +1153,96 @@ margin: 0px 0 0 0;
 
 /* THIRD OFFERS SECTION */
 
+.offer__carInfoBtn {
+}
+
+.offer__carInfo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.offer__carInfo p {
+  color: #000;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  line-height: 16px;
+  flex-basis: 50%;
+  margin: 8px 0 0 0;
+}
+
+.offer__carInfo__p2,
+.offer__carInfo__p4 {
+  padding-left: 15px;
+}
+
+.offer__btn__send {
+  width: 433px;
+  height: 45px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background: var(--blue, #008aee);
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  line-height: 18px;
+  margin-top: 19px;
+  border: none;
+}
+
+.offer__btn__send span {
+  padding-left: 6px;
+}
+
+.offer__lastBtns {
+  display: flex;
+  flex-direction: row;
+  margin-top: 6px;
+  gap: 4px;
+}
+
+.box__btn {
+  width: 214.175px;
+  height: 45px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  border: 1px solid var(--green, #33bb5a);
+  background: var(--green-opacity, rgba(41, 188, 85, 0.1));
+  color: var(--green, #33bb5a);
+  text-align: center;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  line-height: 18px;
+  margin-left: -1px;
+}
+
+.box__btn span {
+  margin-left: 1px;
+  padding-right: 6px;
+}
+
+.review__btn {
+  width: 211.626px;
+  height: 45px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  border: 1px solid var(--red, #fd3541);
+  background: var(--red-opacity, rgba(253, 53, 65, 0.1));
+  color: var(--red, #fd3541);
+  text-align: center;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  line-height: 18px;
+  margin-left: -1px;
+}
+
+.review__btn span {
+  margin-top: 20px;
+  padding-right: 4px;
+}
 
