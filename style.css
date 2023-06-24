@@ -507,10 +507,9 @@ button {
   font-family: "Roboto", sans-serif;
   line-height: 20px;
   appearance: none;
-  -webkit-appearance:none;
+  -webkit-appearance: none;
   background-position: calc(100% - 20px) center !important;
   background: url(/assets/Vector\ 21.svg) no-repeat;
-  
 }
 
 .fillter__apply__btn {
@@ -530,8 +529,9 @@ button {
 }
 
 #disabled {
-  border: 1px solid #e9e9e9 ;
-  box-shadow: 0px 0px 0px 0px rgba(0, 138, 238, 0.15) ;
+  border: 2px solid #e9e9e9;
+  box-shadow: 0px 0px 0px 0px rgba(0, 138, 238, 0.15);
+  opacity: 0.4;
 }
 
 .main__filter__select1,
@@ -812,8 +812,12 @@ button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   line-height: 24px;
-  padding-left: 20px;
+  padding: 0 10px 0px 25px;
   margin: 0 0 0 34px;
+  appearance: none;
+  -webkit-appearance: none;
+  background-position: calc(100% - 20px) center !important;
+  background: url(/assets/Vector\ 21.svg) no-repeat;
 }
 
 .clear__offers__btn {
@@ -840,10 +844,14 @@ button {
 .digit__offers__ul {
   display: flex;
   flex-direction: row;
+  margin-left: 172px;
+  margin-top: 9px;
+  gap: 20px;
 }
 
 .digit__offers__ul li {
-  margin-right: 10px;
+  display: flex;
+  flex-direction: row;
 }
 
 .digit__offers__ul li p {
@@ -851,11 +859,37 @@ button {
   font-size: 26px;
   font-family: "Exo 2", sans-serif;
   font-weight: 700;
+  margin: -2px 0 0px 5px;
 }
 
-.gas__icon {
-  background: url(/assets/043-gas\ 1.png) no-repeat 0 0;
+.digit__offers_img1 {
   width: 27px;
   height: 27px;
   flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.digit__offers__p1{
+  padding-top: 0.5px;
+}
+
+.digit__offers_img2 {
+  width: 29.548px ;
+  height: 29.548px;
+  flex-shrink: 0;
+}
+
+.digit__offers__p2{
+  padding-top: 1px;
+}
+
+
+.digit__offers_img3 {
+  width: 28.056px;
+  height: 30.06px;
+  flex-shrink: 0;
+}
+
+.digit__offers__p3 {
+  padding-top: 2px;
 }
