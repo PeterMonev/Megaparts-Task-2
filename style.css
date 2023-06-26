@@ -383,6 +383,10 @@ button {
   text-align: left;
 }
 
+.query__img {
+  display: none;
+}
+
 .main__query__a {
   width: 271px;
   height: 45px;
