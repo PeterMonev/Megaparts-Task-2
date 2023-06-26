@@ -28,6 +28,10 @@ button {
   flex-shrink: 0;
 }
 
+.mobile__menu{
+  display: none;
+}
+
 .header__div__logo {
   align-self: center;
   margin-left: 178px;
@@ -144,7 +148,6 @@ button {
 /* HEADER BOTTOM */
 
 .header__section__bottom {
-  /* width: 100vw; */
   height: 75px;
   background-color: #1c2d3a;
   overflow: hidden;
@@ -186,12 +189,9 @@ button {
 }
 
 .header__bottom_img1 {
-  background: url(/assets/setting2.png) no-repeat 0 0;
-  display: inline-block;
-  vertical-align: middle;
   width: 26px;
   height: 24px;
-  margin: 5px 5px 10px 16px;
+  margin: 5px 5px 10px 15px;
 }
 
 .header__bottom__text {
@@ -199,32 +199,23 @@ button {
 }
 
 .header__bottom_img2 {
-  background: url(/assets/car.png) no-repeat 0 0;
-  display: inline-block;
-  vertical-align: middle;
   width: 26px;
   height: 24px;
   margin: 5px 5px 10px 16px;
 }
 
 .header__bottom_img3 {
-  background: url(/assets/auctions.png) no-repeat 0 0;
-  display: inline-block;
-  vertical-align: middle;
   width: 26px;
   height: 24px;
-  margin: 8px 5px 10px 18px;
+  margin: 8px 4px 10px 15px;
 }
 
 .header__bottom__text3 {
-  margin: 6px 2px 5px 0px;
+  margin: 6px 2px 5px 4px;
   font-family: "Exo 2", sans-serif;
 }
 
 .header__bottom_img4 {
-  background: url(/assets/shop.png) no-repeat 0 0;
-  display: inline-block;
-  vertical-align: middle;
   width: 26px;
   height: 24px;
   margin: 6px 5px 10px 16px;
@@ -237,9 +228,6 @@ button {
 }
 
 .header__bottom_img5 {
-  background: url(/assets/star.png) no-repeat 0 0;
-  display: inline-block;
-  vertical-align: middle;
   width: 26px;
   height: 24px;
   margin: 6px 5px 10px 16px;
@@ -252,14 +240,13 @@ button {
 }
 
 .header__bottom_img6 {
-  background: url(/assets/book.png) no-repeat 0 0;
   width: 26px;
   height: 24px;
-  margin: 5px 5px 10px 19px;
+  margin: 5px 5px 10px 17px;
 }
 
 .header__bottom__text6 {
-  margin: 5px 1px 5px 0px;
+  margin: 5px 0px 5px 0px;
   font-family: "Exo 2", sans-serif;
   font-weight: 500;
 }

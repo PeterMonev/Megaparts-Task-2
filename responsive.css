@@ -157,19 +157,19 @@
 }
 
 @media all and (max-width: 750px) {
-  .header__info__ul  {
+  .header__info__ul {
     display: none;
   }
 
-  .header__div__logo{
+  .header__div__logo {
     padding: 0;
   }
 
   .header_search__form {
     margin: auto;
   }
- 
-  .query__div_p1{
+
+  .query__div_p1 {
     font-size: 24px;
   }
 
@@ -219,5 +219,199 @@
   .offers__div__offer1 {
     width: 100%;
     display: flex;
+  }
+}
+
+@media all and (max-width: 550px) {
+  .query__div_p1 {
+    font-size: 18px;
+  }
+
+  .query__div_p2 {
+    font-size: 14px;
+  }
+
+  .main__filter__p {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .div__clearfilter {
+    margin: auto;
+  }
+  .main__filter__selects select {
+    flex-basis: 80%;
+  }
+
+  .fillter__apply__btn {
+    flex-basis: 80%;
+  }
+
+  .aside__orders__div {
+    flex-direction: column;
+  }
+
+  .offers__section div article {
+    width: 100%;
+  }
+
+  /* .div__info p,
+.div__expiration p,
+.offer__info__p {
+  font-size: 12px;
+}
+
+.p__tag{
+  font-size: 10px;
+}
+
+.offer__carInfo p {
+  font-size: 10px;
+}
+
+.offers__div__offer1,
+.offers__div__offer2,
+.offers__div__offer3,
+.offers__div__offer4,
+.offers__div__offer5,
+.offers__div__offer6 {
+
+  margin-bottom: 10px;
+}
+
+.offer__section__photos {
+  flex-direction: column;
+  height: auto;;
+}
+
+.section__second__photos {
+  flex-direction: row;
+  margin: 0;
+}
+
+
+.offer__btn__send{
+  width: 343px;
+  height: 45px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.offer__lastBtns {
+  display: inline;
+  
+}
+
+.box__btn {
+  width: 155.351px;
+height: 45px;
+flex-shrink: 0;
+}
+
+.review__btn {
+  width: 179.212px;
+height: 45px;
+} */
+
+  /* .section__second__photos {
+  display: none;
+} */
+}
+
+@media all and (max-width: 394px) {
+  .main__filter {
+    display: none;
+  }
+  .header__section__top {
+    height: 59px;
+  }
+  .header__logo {
+    width: 173.001px !important;
+    height: 28.129px !important;
+    margin: 5px 0px 0 4px;
+  }
+
+  .mobile__menu {
+    display: inline;
+    background-color: transparent;
+    border: none;
+    margin-left: 124px;
+    margin-top: 3px;
+  }
+
+  .header_search__form {
+    display: none;
+  }
+
+  .header__section__bottom {
+    height: 45px;
+  }
+
+  .header__bottom__ul__left li {
+    margin: auto !important;
+    height: 24px;
+  }
+
+  .header__bottom__ul__left li:nth-child(1) {
+    width: 100px;
+  }
+
+  .header__bottom__ul__left li:nth-child(2) {
+    width: 170.197px;
+  }
+
+  .header__bottom__ul__left li:nth-child(3) {
+    display: none;
+  }
+
+  .header__bottom__ul__left li:nth-child(4) {
+    width: 75px;
+  }
+
+  .header__bottom__ul__left li:nth-child(5) {
+    width: 79px;
+  }
+
+  .header__bottom__ul__left li:nth-child(6) {
+    width: 90px;
+  }
+
+  .header__bottom__ul__left li a {
+    font-size: 11px;
+    width: 75%;
+    margin-left: 5px;
+  }
+
+  .header__bottom__ul__left li a span {
+    margin: auto;
+  }
+
+  .header__bottom__text {
+    margin: 0;
+  }
+
+  .header__bottom_img1 img,
+  .header__bottom_img2 img,
+  .header__bottom_img3 img,
+  .header__bottom_img4 img,
+  .header__bottom_img5 img,
+  .header__bottom_img6 img {
+    width: 15.522px;
+    height: 15.522px;
+    margin: 3px 5px 0 2px;
+  }
+
+
+  .offers__div__offer1,
+  .offers__div__offer2,
+  .offers__div__offer3,
+  .offers__div__offer4,
+  .offers__div__offer5,
+  .offers__div__offer6 {
+    display: none;
+  }
+  .header__section__bottom {
+  }
+  .pagination {
   }
 }
