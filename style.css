@@ -449,6 +449,7 @@ button {
   flex-direction: row;
   justify-content: space-between;
   margin: 0;
+  width: 100%;
 }
 
 .p__filter {
@@ -463,7 +464,7 @@ button {
 .div__clearfilter {
   display: flex;
   flex-direction: row;
-  padding-left: 146px;
+  margin-right: 31px;
 }
 
 .icon_clearfilter {
