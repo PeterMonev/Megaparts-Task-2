@@ -1316,3 +1316,7 @@ button {
 .pagination_p2 {
   margin: 15px 10px 0 13px;
 }
+
+.pagination__mobile {
+  display: none;
+}

@@ -652,7 +652,7 @@ height: 45px;
 
   .offer__mobileLastBtn {
     display: flex;
-    margin: 8px 6px 0 0
+    margin: 8px 6px 0 0;
   }
 
   .have__btn {
@@ -668,11 +668,11 @@ height: 45px;
     font-weight: 500;
     line-height: 18px;
     background-color: transparent;
-    padding: 0 8px 8px 0;
+    padding: 0 8px 12px 0;
   }
 
   .have__btn img {
-     padding: 10px 5px 0 0;
+    padding: 10px 5px 0 0;
   }
 
   .check__btn {
@@ -692,12 +692,10 @@ height: 45px;
     margin-left: 6px;
   }
 
-  .check__btn img{
+  .check__btn img {
     margin-right: 5px;
-   margin-bottom: -3px;
+    margin-bottom: -3px;
   }
-
- 
 
   .offers__div__offer1 {
     margin: -19px 0 0 4px;
@@ -722,4 +720,25 @@ height: 45px;
   .pagination {
     display: none;
   }
+  
+.pagination__mobile {
+  display: flex;
+  flex-direction: row;
+  color: #000;
+  text-align: center;
+  font-size: 26px;
+  font-family: "Exo", sans-serif;
+  line-height: 20px;
+  gap: 10px;
+  padding-right: 7px;
+}
+
+.pagination__mobile button{
+  border: none;
+  background-color: transparent;
+}
+
+.pagination__mobile span {
+  color: #008AEE;
+}
 }
