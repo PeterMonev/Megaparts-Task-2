@@ -499,6 +499,8 @@ height: 45px;
   .offers__section {
     margin-top: 8px;
     border-top: 1px solid #c1c1c1;
+    flex-wrap: wrap;
+    flex-direction: column;
   }
 
   .sort__section {
@@ -561,10 +563,163 @@ height: 45px;
   .offers__div__offer4,
   .offers__div__offer5,
   .offers__div__offer6 {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  .offers__div__offer6 {
     display: none;
   }
-  .header__section__bottom {
+
+  .first__photo {
+    width: 343px;
   }
+
+  .section__second__photos {
+    display: none;
+  }
+
+  .section__first__photo p {
+    left: 16px;
+    top: 2px !important;
+  }
+
+  .heart__img {
+    left: 309px;
+  }
+
+  .section__infoOwner {
+    padding: 0;
+    margin: 3px 0 0 1px;
+    padding-bottom: 14px;
+  }
+
+  .section__infoOwner p {
+    font-size: 12px;
+  }
+
+  .div__info {
+    margin-left: 1px;
+  }
+
+  .div__expiration {
+    margin-left: -10px;
+  }
+
+  .offer__info {
+    margin-top: 0px;
+  }
+
+  .p__tag {
+    font-size: 10px;
+    width: 68px;
+    height: 21px;
+  }
+
+  .offer__received {
+    margin-top: 3px;
+  }
+
+  .offer__info__p {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .offer__carInfo p {
+    font-size: 10px;
+  }
+
+  .offer__carInfo__p2,
+  .offer__carInfo__p4 {
+    padding: 0 0 0 27px;
+  }
+
+  .offer__carInfo__p3,
+  .offer__carInfo__p4 {
+    margin: 0 0 8px 0 !important;
+  }
+
+  .offer__btn__send {
+    width: 343px;
+    margin: 8px 0 0 2px;
+    content: "asd";
+  }
+
+  .offer__lastBtns {
+    display: none;
+  }
+
+  .offer__mobileLastBtn {
+    display: flex;
+    margin: 8px 6px 0 0
+  }
+
+  .have__btn {
+    width: 155.351px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    border: 1px solid #008aee;
+    color: #000;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    line-height: 18px;
+    background-color: transparent;
+    padding: 0 8px 8px 0;
+  }
+
+  .have__btn img {
+     padding: 10px 5px 0 0;
+  }
+
+  .check__btn {
+    width: 179.212px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    border: 1px solid #008aee;
+    color: #000;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    line-height: 18px;
+    background-color: transparent;
+    padding: 0 0 2px 0;
+    margin-left: 6px;
+  }
+
+  .check__btn img{
+    margin-right: 5px;
+   margin-bottom: -3px;
+  }
+
+ 
+
+  .offers__div__offer1 {
+    margin: -19px 0 0 4px;
+  }
+
+  .offers__div__offer2 {
+    margin: -31px 0 0 4px;
+  }
+
+  .offers__div__offer3 {
+    margin: -45px 0 0 4px;
+  }
+
+  .offers__div__offer4 {
+    margin: -45px 0 0 4px;
+  }
+
+  .offers__div__offer5 {
+    margin: -45px 0 0 4px;
+  }
+
   .pagination {
+    display: none;
   }
 }

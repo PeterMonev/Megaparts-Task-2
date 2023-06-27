@@ -1205,6 +1205,10 @@ button {
   gap: 4px;
 }
 
+.offer__mobileLastBtn {
+  display: none;
+}
+
 .box__btn {
   width: 214.175px;
   height: 45px;
