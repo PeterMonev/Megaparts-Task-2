@@ -425,7 +425,7 @@ height: 45px;
     flex-direction: column-reverse;
     margin-top: 16px;
     padding-bottom: 10px;
-    border-bottom: 1px solid #C1C1C1;
+    border-bottom: 1px solid #c1c1c1;
   }
 
   .query__div_p1 {
@@ -437,11 +437,11 @@ height: 45px;
   }
 
   .main__query__icon {
-    margin-left: 81px;
+    margin-left: 83px;
   }
 
   .main__query__text {
-    padding-right: 32px;
+    padding-right: 35px;
   }
 
   .main__query__div {
@@ -453,16 +453,106 @@ height: 45px;
     display: inline;
     margin: -6px 0 0 98px;
   }
-  
+
   .query__div_p2 {
     font-size: 12px;
     margin: -1px 0 0 5px;
     padding: 0;
-   
   }
-  
+
   .query__div_p2 span {
     font-size: 18px;
+  }
+
+  .aside {
+    width: 100%;
+    padding-left: 0;
+    margin: 0;
+  }
+
+  .aside__orders__div a:nth-child(1) {
+    width: 107px;
+    margin: 10.5px 0 0 5px;
+  }
+
+  .aside__orders__div a:nth-child(2) {
+    width: 181.136px;
+    margin: 10.5px 0 0 5px;
+  }
+
+  .aside__article {
+    display: inline;
+  }
+
+  .aside__orders__div {
+    flex-direction: row;
+    border: none;
+  }
+
+  .aside__order__btn {
+    display: inline;
+    background-color: transparent;
+    border: none;
+    padding: 10px 0px 0 2px;
+  }
+
+  .offers__section {
+    margin-top: 8px;
+    border-top: 1px solid #c1c1c1;
+  }
+
+  .sort__section {
+    margin: 15px 0px 0 -21.5px;
+    padding: 0;
+  }
+
+  .digit__offers__ul {
+    order: 4;
+  }
+
+  .sort__section__latest {
+    display: none;
+  }
+
+  .clear__offers__btn {
+    order: 2;
+  }
+
+  .filter__button__ul {
+    display: none;
+  }
+
+  .filter__button__ul {
+    order: 3;
+    display: flex;
+    flex-direction: row;
+    padding-left: 25px;
+  }
+
+  .filter__button__ul button {
+    width: 110.815px;
+    height: 33px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    color: #000;
+    text-align: center;
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+    line-height: 18px;
+    border: none;
+    margin: -1px 6px 0 0;
+  }
+
+  .clear__offers__btn {
+    font-size: 14px;
+    margin: -5px 0 0 65px;
+  }
+
+  .clear__offers__icon {
+    width: 17px;
+    height: 17px;
+    left: 41px;
+    top: 3px;
   }
 
   .offers__div__offer1,

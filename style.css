@@ -28,7 +28,7 @@ button {
   flex-shrink: 0;
 }
 
-.mobile__menu{
+.mobile__menu {
   display: none;
 }
 
@@ -561,6 +561,10 @@ button {
   border-bottom: 2px solid #c1c1c1;
 }
 
+.aside__order__btn {
+  display: none;
+}
+
 .aside__orders__div a {
   display: block;
   width: 237px;
@@ -824,6 +828,10 @@ button {
   background: url(/assets/Vector\ 21.svg) no-repeat;
 }
 
+.filter__button__ul {
+  display: none;
+}
+
 .clear__offers__btn {
   color: #008aee;
   font-size: 16px;
@@ -833,23 +841,22 @@ button {
   text-decoration-line: underline;
   border: none;
   background-color: transparent;
-  padding: 0;
-  margin: 0px 0 0 20px;
+  margin: 0 1px 0 43px;
+  position: relative;
 }
 
 .clear__offers__icon {
-  background: url(/assets/cleararrow.png) no-repeat 0 0;
   width: 24px;
   height: 24px;
   flex-shrink: 0;
-  padding: 4px 10px 0 20px;
+  position: absolute;
+  left: -23px;
 }
 
 .digit__offers__ul {
   display: flex;
   flex-direction: row;
-  margin-left: 172px;
-  margin-top: 9px;
+  margin: 9px 0 0 165px;
   gap: 20px;
 }
 
@@ -1292,10 +1299,10 @@ button {
 .pagination_p1,
 .pagination_p2 {
   color: #000;
-font-size: 16px;
-font-family: "Roboto", sans-serif;
-font-weight: 500;
-line-height: 18px;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  line-height: 18px;
 }
 
 .pagination_p1 {
