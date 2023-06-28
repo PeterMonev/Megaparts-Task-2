@@ -318,7 +318,7 @@ height: 45px;
 } */
 }
 
-@media all and (max-width: 394px) {
+@media all and (max-width: 530px) {
   /* HEADER */
 
   .main__filter {
@@ -501,12 +501,15 @@ height: 45px;
     border-top: 1px solid #c1c1c1;
     flex-wrap: wrap;
     flex-direction: column;
+    margin-left: 0px;
   }
 
   .sort__section {
     margin: 15px 0px 0 -21.5px;
     padding: 0;
   }
+
+
 
   .digit__offers__ul {
     order: 4;

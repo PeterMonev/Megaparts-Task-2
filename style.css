@@ -802,10 +802,10 @@ button {
 /* RIGTH SECTION */
 
 .sort__section {
-  padding: 26px 0 0 19px;
-  display: flex;
+    display: flex;
   flex-direction: row;
-  margin: 0;
+  margin: 11px 0px 0 -11px;
+
 }
 
 .sort__section__latest {
@@ -910,11 +910,12 @@ button {
   /* background-color: #008aee; */
   width: 960px;
   height: 2020px;
-  margin: 0;
+  margin: 15px 0 0 30px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   flex-shrink: 0;
+  
 }
 
 .offers__div__offer1,
@@ -926,34 +927,48 @@ button {
   width: 477px;
   height: 658px;
   flex-shrink: 0;
+  
+}
+
+.offers__div__offer1:hover,
+.offers__div__offer2:hover,
+.offers__div__offer3:hover,
+.offers__div__offer4:hover,
+.offers__div__offer5:hover,
+.offers__div__offer6:hover {
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 2px 3px 20px 0px rgba(0, 0, 0, 0.15);
+}
+
+.all__offers {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
 }
 
 .offers__div__offer1 {
-  padding: 17px 0 0 51px;
+  margin: 17px 0 0 2px;
 }
 
 .offers__div__offer2 {
-  padding: 17px 0px 0 45px;
+  margin: 17px 0px 0 -3px;
 }
 
 .offers__div__offer3 {
-  margin-top: 30px;
-  padding-left: 51px;
+  margin: 14px 0 0 2px;
 }
 
 .offers__div__offer4 {
-  margin-top: 30px;
-  padding-left: 45px;
+  margin: 13px 0px 0 -3px;
 }
 
 .offers__div__offer5 {
-  margin-top: 12px;
-  padding-left: 51px;
+  margin: 12px 0 0 2px;
 }
 
 .offers__div__offer6 {
-  margin-top: 12px;
-  padding-left: 44px;
+  margin: 12px 0px 0 -3px;
 }
 
 .offers__section div article {
@@ -1256,7 +1271,7 @@ button {
 .pagination {
   display: flex;
   flex-direction: row;
-  margin: 62px 0 0 336px;
+  margin: 61px 0 0 306.7px;
   height: 100px;
 }
 
