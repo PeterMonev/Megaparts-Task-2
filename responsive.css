@@ -225,8 +225,6 @@
     margin: auto;
     display: flex;
   }
-
-  
 }
 
 @media all and (max-width: 550px) {
@@ -362,6 +360,34 @@
 
   .header__bottom__ul__rigth li:nth-child(1) img {
     margin-top: 5px;
+  }
+
+  .mobile__header__last {
+    width: 100%;
+    height: 100%;
+    background-color: #1c2d3a;
+  }
+
+  .mobile__ul {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: auto
+  }
+
+  .mobile__ul li {
+    align-self: center;
+    margin: 0 10px 0 10px;
+  }
+
+  .mobile__text_a {
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Exo 2", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
   }
 
   /* MAIN */
@@ -523,7 +549,7 @@
   .offers__div__offer3 article,
   .offers__div__offer4 article,
   .offers__div__offer5 article {
-    margin-top: -5px !important
+    margin-top: -5px !important;
   }
 
   .offers__div__offer6 {

@@ -335,6 +335,11 @@ button {
   margin-left: 5px;
 }
 
+
+.mobile__header__last {
+  display: none;
+}
+
 /* MAIN */
 
 /* FIRST SECTION */
