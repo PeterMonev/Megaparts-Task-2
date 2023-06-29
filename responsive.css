@@ -216,10 +216,17 @@
     width: 100%;
   }
 
-  .offers__div__offer1 {
-    width: 100%;
+  .offers__div__offer1,
+  .offers__div__offer2,
+  .offers__div__offer3,
+  .offers__div__offer4,
+  .offers__div__offer5,
+  .offers__div__offer6 {
+    margin: auto;
     display: flex;
   }
+
+  
 }
 
 @media all and (max-width: 550px) {
@@ -512,6 +519,13 @@
     width: 100%;
   }
 
+  .offers__div__offer2 article,
+  .offers__div__offer3 article,
+  .offers__div__offer4 article,
+  .offers__div__offer5 article {
+    margin-top: -5px !important
+  }
+
   .offers__div__offer6 {
     display: none;
   }
@@ -587,7 +601,6 @@
   .offer__btn__send {
     width: 343px;
     margin: 8px 0 0 2px;
-    content: "asd";
   }
 
   .offer__lastBtns {
